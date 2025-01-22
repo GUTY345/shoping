@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>IT Shop</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img style="width: 12vw;" src="../image/image_logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="../api/login/login.php">เข้าสู่ระบบ/สมัครสมาชิก</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>บริการขายมือถือและโน๊ตบุ๊คที่ดีที่สุด</h1>
+            <p>สะดวกและปลอดภัยต้องที่ IT Shop</p>
+            <div>
+                <button class="signup-btn" type="button" action="../api/login/login.php"><span class="cover"></span>สมัครสมาชิก</button>
+                <button class="login-btn" type="button"><span class="cover"></span>เข้าสู่ระบบ</button>
+            </div>
+        </div>
+    </div>
+
+    <section style="margin-top: 80px;" class="product"> 
+        <h2 class="product-category">สินค้าขายดี</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img style="object-fit: cover; width: 100%;" src="https://media-cdn.bnn.in.th/457929/asus-notebook-zenbook-14-ux3407qa-qd002wa-gray-01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Asus Zenbook 14 </h2>
+                    <p class="product-short-description">UX3407QA-QD002WA Gray</p>
+                    <span class="price">29,990 บาท</span><span class="actual-price">39,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/456056/xiaomi-smartphone-redmi-note-14pro-12256-frost-blue-5g-----01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Redmi Note 14Pro</h2>
+                    <p class="product-short-description">(12+256) Frost Blue (5G)</p>
+                    <span class="price">11,999 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="https://media-cdn.bnn.in.th/426794/iPhone_16_Pro_Max_Desert_Titanium_1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">iPhone 16 Pro Max</h2>
+                    <p class="product-short-description">256GB Desert Titanium</p>
+                    <span class="price">46,900 บาท</span><span class="actual-price">48,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="https://media-cdn.bnn.in.th/416449/acer-nitro-16-an16-43-r02c-black-1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Acer Nitro 16</h2>
+                    <p class="product-short-description">AN16-43-R02C Obsidian Black</p>
+                    <span class="price">37,990 บาท</span><span class="actual-price">42,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">12% off</span>
+                    <img src="https://media-cdn.bnn.in.th/363351/Samsung--Galaxy-S24-ULTRA-YELLOW-5G--8-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Samsung Galaxy S24 ULTRA</h2>
+                    <p class="product-short-description">(12+512) YELLOW (5G)</p>
+                    <span class="price">44,900 บาท</span><span class="actual-price">52,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/453741/asus-notebook-tuf-gaming-a17-fa707nur-hx003w-gray-a-01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Asus TUF Gaming A17</h2>
+                    <p class="product-short-description">FA707NUR-HX003W Gray</p>
+                    <span class="price">37,990 บาท</span>
+                </div>
+            </div>
+            
+        </div>
+    </section> 
+
+
+
+    <section style="margin-top: 50px;" class="product"> 
+        <h2 class="product-category">มือถือ</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img style="object-fit: cover; width: 100%;" src="https://media-cdn.bnn.in.th/426956/iPhone_16_Teal_3-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Apple iPhone 16 </h2>
+                    <p class="product-short-description">128GB Teal</p>
+                    <span class="price">29,990 บาท</span><span class="actual-price">39,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/456056/xiaomi-smartphone-redmi-note-14pro-12256-frost-blue-5g-----01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Redmi Note 14Pro</h2>
+                    <p class="product-short-description">(12+256) Frost Blue (5G)</p>
+                    <span class="price">11,999 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="https://media-cdn.bnn.in.th/426794/iPhone_16_Pro_Max_Desert_Titanium_1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">iPhone 16 Pro Max</h2>
+                    <p class="product-short-description">256GB Desert Titanium</p>
+                    <span class="price">46,900 บาท</span><span class="actual-price">48,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="https://media-cdn.bnn.in.th/332559/iPhone_15_Plus_Blue_3-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Apple iPhone 15 Plus</h2>
+                    <p class="product-short-description">128GB Blue</p>
+                    <span class="price">37,990 บาท</span><span class="actual-price">42,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">12% off</span>
+                    <img src="https://media-cdn.bnn.in.th/363351/Samsung--Galaxy-S24-ULTRA-YELLOW-5G--8-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Samsung Galaxy S24 ULTRA</h2>
+                    <p class="product-short-description">(12+512) YELLOW (5G)</p>
+                    <span class="price">44,900 บาท</span><span class="actual-price">52,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/363191/Samsung-Galaxy-S24-5G-Yellow-1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Samsung Galaxy S24</h2>
+                    <p class="product-short-description">(8+256) Yellow (5G)</p>
+                    <span class="price">37,990 บาท</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section style="margin-top: 50px;" class="product"> 
+        <h2 class="product-category">โน๊ตบุ๊ค</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img style="object-fit: cover; width: 100%;" src="https://media-cdn.bnn.in.th/457929/asus-notebook-zenbook-14-ux3407qa-qd002wa-gray-01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Asus Zenbook 14 </h2>
+                    <p class="product-short-description">UX3407QA-QD002WA Gray</p>
+                    <span class="price">29,990 บาท</span><span class="actual-price">39,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/456056/xiaomi-smartphone-redmi-note-14pro-12256-frost-blue-5g-----01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Redmi Note 14Pro</h2>
+                    <p class="product-short-description">(12+256) Frost Blue (5G)</p>
+                    <span class="price">11,999 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">10% off</span>
+                    <img src="https://media-cdn.bnn.in.th/426794/iPhone_16_Pro_Max_Desert_Titanium_1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">iPhone 16 Pro Max</h2>
+                    <p class="product-short-description">256GB Desert Titanium</p>
+                    <span class="price">46,900 บาท</span><span class="actual-price">48,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">15% off</span>
+                    <img src="https://media-cdn.bnn.in.th/416449/acer-nitro-16-an16-43-r02c-black-1-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Acer Nitro 16</h2>
+                    <p class="product-short-description">AN16-43-R02C Obsidian Black</p>
+                    <span class="price">37,990 บาท</span><span class="actual-price">42,990 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">12% off</span>
+                    <img src="https://media-cdn.bnn.in.th/363351/Samsung--Galaxy-S24-ULTRA-YELLOW-5G--8-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">เพิ่มเข้าตระกร้า</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Samsung Galaxy S24 ULTRA</h2>
+                    <p class="product-short-description">(12+512) YELLOW (5G)</p>
+                    <span class="price">44,900 บาท</span><span class="actual-price">52,900 บาท</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://media-cdn.bnn.in.th/453741/asus-notebook-tuf-gaming-a17-fa707nur-hx003w-gray-a-01-square_medium.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Asus TUF Gaming A17</h2>
+                    <p class="product-short-description">FA707NUR-HX003W Gray</p>
+                    <span class="price">37,990 บาท</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <footer style="margin-top: 80px;" class="bg-dark text-light pt-4">
+        <div class="container">
+          <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+              <h5>About Us</h5>
+              <p>
+                Welcome to IT Shop, your one-stop destination for the latest technology products. We aim to provide the best quality at affordable prices.
+              </p>
+            </div>
+      
+      
+            <!-- Contact Section -->
+            <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-telephone"></i> +123-456-7890</li>
+                <li><i class="bi bi-envelope"></i> support@itshop.com</li>
+                <li><i class="bi bi-geo-alt"></i> 123 IT Street, Tech City</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Social Media Links -->
+          <div class="text-center mt-4">
+            <a href="#" class="text-light mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-linkedin"></i></a>
+          </div>
+      
+          <!-- Copyright Section -->
+          <div class="text-center mt-4">
+            <p>&copy; 2025 IT Shop. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- Include Bootstrap Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
